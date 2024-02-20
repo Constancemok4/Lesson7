@@ -1,70 +1,86 @@
 :root {
-    --primary-color:#6c63ff;
-    --secondary-color: #f5f2fe;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-
-
 .navigation-links a {
-    margin: 20px;
+  margin: 20px;
 }
 
 .navigation-links {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .about-link {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    text-transform: capitalize;
-    text-decoration: none;
-    padding: 20px 15px;
-    border-radius: 4px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 4px;
 }
 
+.about-section {
+  padding: 110px 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 .contact-link {
-    background: var(--primary-color);
-    color: white;
-    box-shadow: var(--box-shadow);
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration:none;
-    text-transform: capitalize;
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .email-link {
-    display:flex;
-    justify-content: center;
-    color: var(--primary-color);
-    font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 30px;
 }
 
 #contact {
-    text-align: center;
-    padding-top: 30px;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .about-paragraphs {
-    text-align: center;
-    color: #d13ac5;
+  text-align: center;
+  color: black;
 }
 
-h1, h3 {
-    text-align: center;
+.btn-branding {
+  background: var(--branding-color);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
 
 h1 {
-    padding: 10px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
-
-h3 {
-    padding: 20px;
-    font-size:smaller;
-    font-weight: lighter;
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 110px 20px;
 }
 
 body {
-    background: #d13ac5;
+  color: white;
+  background-color: rgb(72, 72, 72);
 }
